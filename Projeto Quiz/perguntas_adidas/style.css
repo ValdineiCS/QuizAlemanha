@@ -1,0 +1,52 @@
+*{
+     padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+background-image: url('https://www.designfootball.com/images/joomgallery/originals/football_crests_8/adidas_logo_concept_20190808_1012719644.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ 
+}
+
+h1{
+    text-align: center;
+    color:rgb(104, 4, 129)
+    
+}
+
+.title1{
+color: rgb(141, 6, 123);
+font-weight: bold;
+}
+
+.title2{
+    color: rgb(141, 6, 123);
+    font-weight: bold;
+    }
+
+    .title3{
+        color: rgb(141, 6, 123);
+        }
+
+    .pergunta{
+        color: rgb(226, 232, 247);
+        padding-top: 2px;
+        margin-top: 2px;
+        font-weight: bold;
+        
+    }
+    .pergunta input{
+        cursor: pointer;
+    }
+    footer{
+        color: red;
+        text-align: right;
+        font-style: italic;
+        font: optional;
+        font-weight: bold;
+    }
+

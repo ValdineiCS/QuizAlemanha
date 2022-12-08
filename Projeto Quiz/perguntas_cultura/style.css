@@ -1,0 +1,92 @@
+*{
+    padding:0;
+   box-sizing: border-box;
+
+}
+
+body{
+background-image: url('https://img.freepik.com/vetores-gratis/design-de-cultura-alema_24877-49713.jpg?w=2000');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+
+h1{
+   text-align: center;
+   color:rgb(115, 117, 119)
+   
+}
+
+.title1{
+color: rgb(255, 255, 249);
+font-weight: bold;
+}
+
+.title2{
+   color: rgb(252, 249, 249);
+   font-weight: bold;
+   }
+
+   .title3{
+       color: rgb(250, 248, 248);
+       }
+
+   .pergunta{
+       color: rgb(243, 241, 230);
+       padding-top: 2px;
+       margin-top: 2px;
+       font-weight: bold;
+       
+   }
+   .pergunta input{
+       cursor: pointer;
+   }
+
+   .clique {
+       text-align: center;
+       cursor: pointer;
+       font-size: medium;
+       font-style: oblique;
+       
+       
+   }
+
+   @keyframes botão{
+       0%{
+        color: black;
+           
+       }
+       50%{
+           color: red;
+       }
+       100% { 
+           color:yellow
+        } 
+
+   }
+   
+
+   .clique input{
+       cursor: pointer;
+       font-size: 25px;
+       font-style: italic;
+       animation-name: botão;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+       border-radius: 15px;
+       color: white;
+       
+       
+   }
+
+   .equipe{
+       text-align: right;
+       font-style: italic;
+       font: optional;
+       font-weight: bold;
+   }
+
+   
+
